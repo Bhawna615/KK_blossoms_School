@@ -5,7 +5,7 @@
 }
 .home-desc{
   color: #ffff;
-  font-size: 25px;
+  font-size: 1.3rem;
 }
 
 /* Responsive font sizes */
@@ -14,7 +14,7 @@
     font-size: 40px !important;
   }
   .home-desc {
-    font-size: 18px !important;
+    font-size: 1.1rem !important;
   }
 }
 
@@ -23,16 +23,15 @@
     font-size: 28px !important;
   }
   .home-desc {
-    font-size: 14px !important;
+    font-size: 0.95rem !important;
   }
 }
 /* Tablet */
 @media (max-width: 992px) {
-  .banner-serction {
-    min-height: 300px;
-    padding: 40px 15px;
-    background-size: cover;
-    background-position: center top;
+  .banner-serction .container {
+    top: 30% !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }
 
