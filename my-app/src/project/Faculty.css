@@ -119,9 +119,6 @@
 }
 
 @media (max-width: 768px) {
-  .faculty-container {
-    padding-top: 250px;
-  }
   .staff-card {
     border-radius: 15px;
   }
@@ -130,5 +127,8 @@
   }
   .staff-description {
     font-size: 0.85rem;
+  }
+  .faculty-container {
+    padding-top: 250px;
   }
 }
