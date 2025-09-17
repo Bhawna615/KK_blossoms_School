@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import schoolLogo from "./photos/K-K-Blossoms-School-png.webp"; // adjust path as per your structure
 import TopBar from "./TopbarStart";
-
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -20,12 +19,12 @@ function Navbar() {
         <TopBar />
       </div>
 
-      <nav
-        className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5"
+      <div
+        className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 d-flex justify-content-between align-items-center"
         style={{
           boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", // ✅ smooth shadow
-        }}
-      >
+        }}>
+      
         {/* Brand Logo */}
         <a href="/" className="navbar-brand ml-lg-3 d-flex align-items-center">
           <img
@@ -49,6 +48,7 @@ function Navbar() {
         </button>
 
         {/* Navbar Links */}
+        <nav>
         <div
           className={`collapse navbar-collapse justify-content-between px-lg-3${isOpen ? " show" : ""}`}
           id="navbarCollapse"
@@ -84,6 +84,7 @@ function Navbar() {
           </a>
         </div>
       </nav>
+      </div>
     </div>
   );
 }
