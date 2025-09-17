@@ -20,7 +20,7 @@ function Navbar() {
       </div>
 
       <div
-        className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5 d-flex justify-content-between align-items-center"
+        className="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5  justify-content-between align-items-center"
         style={{
           boxShadow: "rgba(0, 0, 0, 0.35) 0px 5px 15px", // ✅ smooth shadow
         }}>
