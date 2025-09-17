@@ -155,11 +155,6 @@
 }
 
 @media (max-width: 768px) {
-  .activities-container {
-    width: 95%;
-    padding-top: 250px;
-  }
-
   .activities-hero {
     height: auto;
     padding: 40px 15px;
@@ -195,5 +190,9 @@
 
   .tab-item img {
     width: 100%;
+  }
+  .activities-container {
+    width: 95%;
+    padding-top: 250px;
   }
 }
