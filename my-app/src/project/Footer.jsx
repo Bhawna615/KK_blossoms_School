@@ -27,7 +27,7 @@ function Footer() {
           {/* Footer Links */}
           <div className="row">
             {/* Contact */}
-            <div className="col-md-5 col-12 mb-4 mb-md-5 footer-contact-col">
+            <div className="col-md-5 col-12 footer-contact-col">
               <h3 className="text-white mb-4">Get In Touch</h3>
               <div className="d-flex justify-content-start mt-4">
                 <a className="text-white mr-4" href="#" style={{fontSize:"15px"}}>
@@ -44,7 +44,7 @@ function Footer() {
                 </a>
               </div>
             </div>
-                 <div className="col-md-4 col-12 mb-4 mb-md-0 footer-address-col">
+                 <div className="col-md-4 col-12  mb-md-0 footer-address-col">
                    <p>
                      <i className="fa fa-map-marker-alt mr-2"></i>Rabaun, Solan, Himachal Pradesh
                    </p>
@@ -56,7 +56,7 @@ function Footer() {
                     </a>
                  </div>
             
-            <div className="col-md-3 col-12 mb-4 mb-md-5 footer-links-col">
+            <div className="col-md-3 col-12 footer-links-col">
               <div className="d-flex flex-column justify-content-start">
                 <a className="text-white-50 mb-2" href="/">
                   <i className="fa fa-angle-right mr-2"></i>Home
@@ -88,7 +88,7 @@ function Footer() {
         className="container-fluid bg-dark text-white-50 border-top py-4"
         style={{ borderColor: "rgba(256, 256, 256, .1)" }}
       >
-        <div className="container">
+        <div>
           <div className="row">
             <div className="col-md-6 col-12 text-center text-md-left mb-3 mb-md-0">
               <p className="m-0">
