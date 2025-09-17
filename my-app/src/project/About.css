@@ -243,4 +243,7 @@
     width: 90%;
     margin: 10px auto;
   }
+  .about-container{
+    padding-top: 170px;
+  }
 }
