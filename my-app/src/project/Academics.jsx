@@ -18,7 +18,7 @@ const Academics = () => {
     <div className="academic-container">
       {/* Hero Section */}
       <header className="academic-hero">
-        <h1>Academics</h1>
+        <h1 >Academics</h1>
         <p>
           A place where knowledge meets creativity, and students are inspired to
           dream big.
@@ -139,5 +139,7 @@ const Academics = () => {
     </div>
   );
 };
+
+export default Academics;
 
 export default Academics;
