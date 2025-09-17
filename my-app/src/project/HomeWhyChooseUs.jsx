@@ -8,10 +8,10 @@ const HomeWhyChooseUs = () => {
       className="container-fluid bg-image"
       style={{ margin: "90px 0"}}
     >
-      <div className="container">
+      <div>
         <div className="row">
           {/* Left Text Section */}
-          <div className="col-lg-7 col-md-12 my-5 pt-5 pb-lg-5">
+          <div className="col-lg-7 col-md-12  pb-lg-5">
             <div className="section-title position-relative mb-4">
               <h6 className="d-inline-block position-relative text-danger text-uppercase pb-2">
                 Why Choose Us?
