@@ -27,7 +27,7 @@
     padding-top: 0 !important;
   }
   .d-flex {
-    flex-direction: column !important;
+    
     align-items: center !important;
     text-align: center !important;
   }
@@ -37,5 +37,11 @@
   }
   .why-choose-main {
     text-align: center !important;
+  }
+}
+@media (max-width: 576px) {
+  .container-fluid.bg-image {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
   }
 }
