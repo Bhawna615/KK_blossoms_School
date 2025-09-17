@@ -3,6 +3,9 @@
     background-size: cover;
     margin-bottom: 60px;
 }
+.container{
+top:20%;
+}
 .home-desc{
   color: #ffff;
   font-size: 1.3rem;
