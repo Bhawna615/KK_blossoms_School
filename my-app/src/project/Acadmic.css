@@ -235,6 +235,8 @@
   .academic-hero {
     padding-top: 60px;
   }
+}
+  @media (max-width: 480px) {
   .academic-container {
     width: 95%;
     padding-top: 250px;
