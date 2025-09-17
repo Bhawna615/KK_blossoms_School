@@ -236,10 +236,7 @@
   .tab-img {
     width: 100%;
   }
-}
-@media (max-width: 480px) {
- 
-  .academic-hero {
+.academic-hero {
     padding-top: 60px;
   }
 }
