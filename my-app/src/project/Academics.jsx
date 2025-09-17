@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Academic.css";
+import "./Acadmic.css";
 
 // Import images
 import visionImg from "./photos/School-group-img.jpg";
