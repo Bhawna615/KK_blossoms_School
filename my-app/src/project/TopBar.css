@@ -44,7 +44,7 @@
 
 /* 📱 For most Android phones (360px–414px) */
 @media (max-width: 480px) {
-  .topbar-left {
+/*   .topbar-left {
     flex-direction: row;
     flex-wrap: nowrap;
    
@@ -61,7 +61,8 @@
   .topbar-right {
     margin-top: 2px;
     justify-content: flex-start;
-  }
+  } */
+  .
 }
 
 @media (max-width: 768px) {
