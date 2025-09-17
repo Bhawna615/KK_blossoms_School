@@ -4,7 +4,7 @@ import "./TopBar.css"; // import css
 function TopBar() {
   return (
     <div className="topbar bg-dark ">
-      <div class="topbar-container" style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"5px 40px",width:"100%"}}>
+      <div class="topbar-container" style={{display:"flex",justifyContent:"space-between",alignItems:"center",padding:"5px 40px",width:"100%",flexDirection:"column"}}>
         <div className="topbar-left">
           <small>
             <i className="fa fa-phone-alt mr-2"></i>
