@@ -215,10 +215,6 @@
 }
 
 @media (max-width: 480px) {
-  .academic-container {
-    width: 95%;
-    padding-top: 250px;
-  }
   .academic-hero {
     height: auto;
     padding: 80px 15px;
@@ -235,6 +231,10 @@
   }
   .tab-img {
     width: 100%;
+  }
+  .academic-container {
+    width: 95%;
+    padding-top: 250px;
   }
 .academic-hero {
     padding-top: 60px;
